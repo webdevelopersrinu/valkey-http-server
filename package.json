@@ -1,0 +1,43 @@
+{
+  "name": "valkey-http-server",
+  "version": "0.1.0",
+  "description": "Self-hostable HTTP proxy for Valkey — lets edge/serverless clients (valkey-http) reach Valkey over HTTP",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "valkey-http-server": "./bin.js"
+  },
+  "files": [
+    "server.js",
+    "bin.js"
+  ],
+  "scripts": {
+    "start": "node bin.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "valkey",
+    "http",
+    "proxy",
+    "rest",
+    "edge",
+    "serverless",
+    "fastify"
+  ],
+  "author": "Srinu Desetti",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevelopersrinu/valkey-http-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webdevelopersrinu/valkey-http-server/issues"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "iovalkey": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
