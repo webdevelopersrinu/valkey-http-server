@@ -1,6 +1,6 @@
 {
   "name": "valkey-http-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Self-hostable HTTP proxy for Valkey — lets edge/serverless clients (valkey-http) reach Valkey over HTTP",
   "type": "module",
   "main": "server.js",
