@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "start": "node bin.js",
-    "test": "node --test"
+    "test": "node --test test/server.test.js",
+    "test:e2e": "node test/e2e.mjs"
   },
   "keywords": [
     "valkey",
